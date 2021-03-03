@@ -1,0 +1,16 @@
+module Kalkulator
+{
+interface KalkulatorInterface
+{
+string add(in double x, in double y);
+string subtract(in double a, in double b);
+string multiply(in double x, in double y);
+string divide(in double a, in double b);
+string addComplexNumbers(in double xRe,in double yRe,in double xIm,in double yIm);
+string subtractComplexNumbers(in double xRe,in double yRe,in double xIm,in double yIm);
+string multiplyComplexNumbers(in double xRe,in double yRe,in double xIm,in double yIm);
+string divideComplexNumbers(in double xRe,in double yRe,in double xIm,in double yIm);
+string random();
+oneway void shutdown();
+};
+};
